@@ -1,0 +1,44 @@
+#appinion-widget > .widget-wrap > .video-wrap > .widget-video-overlay {
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  background-color: black;
+  padding: 0.1px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > .widget-remove {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+@media screen and (max-width:768px){
+  #appinion-widget > .widget-wrap > .video-wrap > .widget-remove {
+    opacity: 1 !important;
+  }
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > .widget-video-play {
+  transition: 0.5s;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  cursor: pointer;
+}

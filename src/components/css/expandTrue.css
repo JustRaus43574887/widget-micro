@@ -1,0 +1,37 @@
+#appinion-widget > .widget-wrap > .video-wrap > .play-overlay {
+  border-radius: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > .widget-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > .widget-pause {
+  position: absolute;
+  bottom: 85px;
+  left: 25px;
+  cursor: pointer;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > .widget-replay {
+  position: absolute;
+  bottom: 85px;
+  left: 65px;
+  cursor: pointer;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > .widget-mute {
+  position: absolute;
+  bottom: 85px;
+  right: 30px;
+  cursor: pointer;
+}

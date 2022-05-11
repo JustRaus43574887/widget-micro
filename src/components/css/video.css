@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+#appinion-widget {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#appinion-widget button:focus {
+  font-family: "Montserrat", sans-serif !important;
+  outline: none !important;
+}
+
+#appinion-widget > .widget-wrap {
+  transition: 0.5s;
+  position: fixed !important;
+  z-index: 99999 !important;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.12);
+  background-color: white;
+  border-radius: 20px;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap {
+  transition: 0.5s;
+  width: 157px;
+  height: 243px;
+  border-radius: 20px;
+  border: 4px solid;
+  position: relative;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > video {
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > video::-webkit-media-controls {
+  display: none !important;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > .widget-shadow {
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  padding: 0.1px;
+  -moz-box-shadow: inset 0px -58px 36px -12px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: inset 0px -58px 36px -12px rgba(0, 0, 0, 0.53);
+  box-shadow: inset 0px -58px 36px -12px rgba(0, 0, 0, 0.53);
+}
+
+#appinion-widget > .widget-wrap > .video-wrap .sta-button {
+  height: 45px;
+  position: absolute;
+  bottom: 130px;
+  width: 60%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap .sta-button > p {
+  font-size: 14;
+  font-weight: 500;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > .logo-wrap {
+  transition: 0.5s linear;
+  cursor: pointer;
+  position: absolute;
+  bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > .logo-wrap .logo-text {
+  transition: 0.1s linear;
+  color: white;
+  border-left: 2px solid white;
+  padding-left: 18px;
+  line-height: 17px !important;
+  animation-name: logo-text;
+  animation-duration: 0.5s;
+}
+
+@keyframes logo-text {
+  from {
+    font-size: 0;
+  }
+  to {
+    font-size: 16px !important;
+  }
+}
+
+#appinion-widget > .widget-wrap > .video-wrap > .logo-wrap .rev {
+  line-height: 17px !important;
+  font-weight: 700;
+  color: white;
+  margin: 0 !important;
+}
+
+#appinion-widget > .widget-wrap > .widget-g {
+  display: none;
+}
+
+#appinion-widget > .widget-wrap > .widget-footer p {
+  margin: 0;
+}
+
+#appinion-widget > .widget-wrap > .widget-footer {
+  display: block;
+  padding: 20px;
+  overflow: hidden;
+  margin-top: 0;
+  animation-name: animation;
+  animation-duration: 0.5s;
+}
+
+#appinion-widget > .widget-wrap > .widget-footer > .act-name {
+  font-family: "Montserrat", sans-serif !important;
+  color: #404040;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px !important;
+}
+
+#appinion-widget > .widget-wrap > .widget-footer > .divider {
+  width: 46px;
+  height: 4px;
+  margin: 4px 0;
+}
+
+@keyframes animation {
+  0% {
+    margin-top: -86px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+#appinion-widget > .widget-wrap > .widget-footer > .act-pos {
+  font-family: "Montserrat", sans-serif !important;
+  color: #3a3a3a;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px !important;
+}
+
+@media screen and (max-width: 769px) {
+  #appinion-widget > .widget-wrap {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #appinion-widget > .widget-wrap {
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+}
